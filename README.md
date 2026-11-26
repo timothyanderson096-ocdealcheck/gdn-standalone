@@ -1,9 +1,13 @@
-# GDN Phase One
+# GDN | engineering verification without unnecessary friction
 
-Private release staging for GDN 0.4.5rc11.
+**Phase One developer preview, v0.4.5rc11. Not for production use.**
 
-The qualified source and installation package have not yet been uploaded. This repository is not a public release or a license grant.
+GDN coordinates scoped engineering changes, configured checks, separate review, bounded repair and an evidence trail. It does not publish upstream changes automatically. Human approval remains mandatory.
 
-GDN coordinates scoped engineering changes, configured checks, review and an evidence trail. It is not a security sandbox. Real jobs require a suitably configured disposable non-root Linux VM. Human approval remains mandatory for publication of candidate changes.
+## Distribution
 
-Publication is pending source transfer, licensing and attribution clearance, a private security-reporting route, and final distribution verification. Independent live-model and intended-host containment qualification remain outstanding.
+The licensed release source archive and Python wheel are prepared for upload to [Releases](https://github.com/timothyanderson096-ocdealcheck/gdn-standalone/releases). Until the assets are present, this repository is only a staging landing page; the expanded source tree has not yet been committed. Read the source README and SECURITY.md before running GDN. The frozen RC11 passed 276 internal regression tests. The licensed repackaging retains the tested runtime. Intended-host containment, independent-model inference and comparative superiority remain unverified.
+
+**GDN is not a security sandbox.** Real jobs require a reviewed disposable non-root Linux VM with no credentials or sensitive mounts, externally enforced resource limits and loopback-only networking. Audit evidence on a separate, clean installation. See [SECURITY.md](SECURITY.md).
+
+Copyright 2026 Timothy Anderson. [Apache License 2.0](LICENSE). Free distribution, optional usage registration, no activation or telemetry. External model providers may charge separately.
