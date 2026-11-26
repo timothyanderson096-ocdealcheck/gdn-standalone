@@ -6,7 +6,15 @@ GDN coordinates scoped engineering changes, configured checks, separate review, 
 
 ## Distribution
 
-The licensed release source archive and Python wheel are prepared for upload to [Releases](https://github.com/timothyanderson096-ocdealcheck/gdn-standalone/releases). Until the assets are present, this repository is only a staging landing page; the expanded source tree has not yet been committed. Read the source README and SECURITY.md before running GDN. The frozen RC11 passed 276 internal regression tests. The licensed repackaging retains the tested runtime. Intended-host containment, independent-model inference and comparative superiority remain unverified.
+Download the verified assets from [GDN Phase One v0.4.5rc11](https://github.com/timothyanderson096-ocdealcheck/gdn-standalone/releases/tag/v0.4.5rc11):
+
+- `GDN_0.4.5rc11_source.zip` — complete released source.
+- `gdn_standalone-0.4.5rc11-py3-none-any.whl` — Python installation wheel.
+- `GDN_0.4.5rc11_SHA256SUMS.txt` — verification checksums (also covers the separately available [release notes](GDN_0.4.5rc11_RELEASE_NOTES.md)).
+
+The automatically generated GitHub source archives contain the repository landing-page snapshot, not the complete GDN product. Use the explicitly named source ZIP above.
+
+ Read the source README and SECURITY.md before running GDN. The frozen RC11 passed 276 internal regression tests. The licensed repackaging retains the tested runtime. Intended-host containment, independent-model inference and comparative superiority remain unverified.
 
 **GDN is not a security sandbox.** Real jobs require a reviewed disposable non-root Linux VM with no credentials or sensitive mounts, externally enforced resource limits and loopback-only networking. Audit evidence on a separate, clean installation. See [SECURITY.md](SECURITY.md).
 
