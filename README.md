@@ -18,4 +18,8 @@ The automatically generated GitHub source archives contain the repository landin
 
 **GDN is not a security sandbox.** Real jobs require a reviewed disposable non-root Linux VM with no credentials or sensitive mounts, externally enforced resource limits and loopback-only networking. Audit evidence on a separate, clean installation. See [SECURITY.md](SECURITY.md).
 
+## Independent evaluation
+
+Independent technical feedback is welcome, including failed runs, reproducible defects and design critiques. Start with the documentation and safety requirements above. Share non-sensitive findings through [the public evaluation thread](https://github.com/timothyanderson096-ocdealcheck/gdn-standalone/issues/1). There is no requirement to register, endorse or star the project.
+
 Copyright 2026 Timothy Anderson. [Apache License 2.0](LICENSE). Free distribution, optional usage registration, no activation or telemetry. External model providers may charge separately.
