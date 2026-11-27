@@ -2,15 +2,15 @@
 
 **Phase One developer preview, v0.4.5rc11. Not for production use.**
 
-GDN coordinates scoped engineering changes, configured checks, separate review, bounded repair and an evidence trail. It does not publish upstream changes automatically. Human approval remains mandatory.
+GDN is an open-source Python engineering verification tool for AI-assisted software development. It coordinates scoped engineering changes, configured checks, separate review, bounded repair and an evidence trail. It does not publish upstream changes automatically. Human approval remains mandatory.
 
 ## Distribution
 
 Download the verified assets from [GDN Phase One v0.4.5rc11](https://github.com/timothyanderson096-ocdealcheck/gdn-standalone/releases/tag/v0.4.5rc11):
 
-- `GDN_0.4.5rc11_source.zip` — complete released source.
-- `gdn_standalone-0.4.5rc11-py3-none-any.whl` — Python installation wheel.
-- `GDN_0.4.5rc11_SHA256SUMS.txt` — verification checksums (also covers the separately available [release notes](GDN_0.4.5rc11_RELEASE_NOTES.md)).
+- [`GDN_0.4.5rc11_source.zip`](https://github.com/timothyanderson096-ocdealcheck/gdn-standalone/releases/download/v0.4.5rc11/GDN_0.4.5rc11_source.zip) — complete released source.
+- [`gdn_standalone-0.4.5rc11-py3-none-any.whl`](https://github.com/timothyanderson096-ocdealcheck/gdn-standalone/releases/download/v0.4.5rc11/gdn_standalone-0.4.5rc11-py3-none-any.whl) — Python installation wheel.
+- [`GDN_0.4.5rc11_SHA256SUMS.txt`](https://github.com/timothyanderson096-ocdealcheck/gdn-standalone/releases/download/v0.4.5rc11/GDN_0.4.5rc11_SHA256SUMS.txt) — verification checksums (also covers the separately available [release notes](GDN_0.4.5rc11_RELEASE_NOTES.md)).
 
 The automatically generated GitHub source archives contain the repository landing-page snapshot, not the complete GDN product. Use the explicitly named source ZIP above.
 
