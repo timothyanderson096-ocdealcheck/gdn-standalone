@@ -22,4 +22,8 @@ The automatically generated GitHub source archives contain the repository landin
 
 Independent technical feedback is welcome, including failed runs, reproducible defects and design critiques. Start with the documentation and safety requirements above. Share non-sensitive findings through [the public evaluation thread](https://github.com/timothyanderson096-ocdealcheck/gdn-standalone/issues/1). There is no requirement to register, endorse or star the project.
 
+### Reproduce the verification workflow
+
+Try the [independent verification challenge](https://github.com/timothyanderson096-ocdealcheck/gdn-standalone/issues/1): reproduce the bundled scripted demonstration, run the isolated synthetic regression suite and audit evidence on a separate clean installation. Failed reproductions are welcome. Follow the security requirements above; these exercises do not qualify real-model independence or production security.
+
 Copyright 2026 Timothy Anderson. [Apache License 2.0](LICENSE). Free distribution, optional usage registration, no activation or telemetry. External model providers may charge separately.
